@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal DB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header class="text-center">
+        <h1>Explorer Foods</h1>
+    </header>
+    <Main class="container">
+        <section id="modal">
+
+        </section>
+        <section class="my-5">
+            <!-- <form> -->
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Search Your Food</label>
+                  <input id="input-food" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <button onclick="searchFood()" class="btn btn-primary">Search</button>
+              <!-- </form> -->
+        </section>
+        <section>
+            <h1>My Foods</h1>
+            <div id="div-container" class="row row-cols-1 row-cols-md-3 g-4">
+                
+              </div>
+        </section>
+    </Main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
